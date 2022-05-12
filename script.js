@@ -29,7 +29,6 @@ const myObject = {
             || (isNaN(this.from) || isNaN(this.to) )
             || (this.to < this.from)
         ) {
-            // lets show error
             throw Error("from or to is invalid");
         } else {
             let self = this;
